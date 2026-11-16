@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>AKMED Poznań - sprzęt diagnostyczny Welch Allyn dla lekarzy</title>
+<meta name="description" content="AKMED - Medyczne Instrumenty Diagnostyczne, Poznań. Od 1992 roku dostawca sprzętu Welch Allyn: otoskopy, oftalmoskopy, ciśnieniomierze, zestawy diagnostyczne, lampy medyczne. Tel. 61 825 45 61.">
+<meta name="theme-color" content="#1D2877">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-480.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/ar-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:"Archivo";font-weight:400 800;font-stretch:100% 125%;font-display:swap;src:url(fonts/ar-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+2122,U+2192}
+@font-face{font-family:"Archivo";font-weight:400 800;font-stretch:100% 125%;font-display:swap;src:url(fonts/ar-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--n:#1D2877;--nd:#141C5A;--tq:#5AC5C4;--tqd:#2E9E9D;--t:#151B3D;--s:#4F5874;--g:#F1F4F9;--l:#D9DFEA;--hh:72px;--gut:clamp(16px,3.4vw,60px);--w:1320px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:"Archivo",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:17px;line-height:1.6;color:var(--t);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;line-height:1.1;letter-spacing:-.015em;font-weight:700;font-stretch:112%}
+h1{font-size:clamp(32px,min(3.3vw,5.8vh),58px);max-width:24ch}
+h2{font-size:clamp(29px,3vw,46px)}
+h3{font-size:20px;line-height:1.22}
+p{margin:0}
+.wrap{width:min(var(--w),100% - 2*var(--gut));margin-inline:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;background:var(--n);color:#fff;font-weight:700;font-size:18px;text-decoration:none;padding:17px 28px;border-radius:4px;line-height:1.2;border:0;cursor:pointer;font-family:inherit;transition:background .2s,transform .2s}
+.btn:hover{background:var(--nd)}
+.btn:active{transform:translateY(1px)}
+.btn.tq{background:var(--tq);color:var(--nd)}
+.btn.tq:hover{background:#7fd6d5}
+.btn svg{width:20px;height:20px;flex:none}
+
+/* fale z litery E */
+.fale{display:block;width:100%;height:18px;color:var(--tq)}
+.fale path{fill:none;stroke:currentColor;stroke-width:2.2;vector-effect:non-scaling-stroke}
+
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;height:var(--hh);background:#fff;border-bottom:1px solid transparent;transition:border-color .2s,box-shadow .2s}
+.top.sc{border-bottom-color:var(--l);box-shadow:0 6px 24px rgba(20,28,90,.07)}
+.top .wrap{height:100%;display:flex;align-items:center;gap:26px}
+.logo{display:flex;flex-direction:column;text-decoration:none;color:var(--n);line-height:1}
+.logo .wm{display:flex;align-items:center;font-weight:800;font-stretch:125%;font-size:27px;letter-spacing:.01em}
+.logo .wm svg{width:.74em;height:.74em;margin:0 .04em 0 .03em}
+.logo small{display:block;font-size:11.5px;font-weight:500;color:var(--s);margin-top:4px;letter-spacing:.01em}
+.menu{display:flex;gap:2px;margin-left:auto;align-items:center}
+.menu a{text-decoration:none;font-weight:500;font-size:16px;padding:10px 13px;border-radius:4px;color:var(--t)}
+.menu a:hover{background:var(--g)}
+.menu a.on{color:var(--tqd)}
+.top .sklep{display:inline-flex;align-items:center;gap:9px;text-decoration:none;font-weight:700;font-size:16px;color:#fff;background:var(--n);padding:12px 18px;border-radius:4px;white-space:nowrap}
+.top .sklep:hover{background:var(--nd)}
+.top .sklep svg{width:18px;height:18px}
+.burger{display:none;margin-left:auto;width:46px;height:46px;border:1px solid var(--l);background:#fff;border-radius:4px;cursor:pointer;padding:0;align-items:center;justify-content:center}
+.burger i{display:block;width:20px;height:2px;background:var(--t);position:relative;transition:background .2s}
+.burger i:before,.burger i:after{content:"";position:absolute;left:0;width:20px;height:2px;background:var(--t);transition:transform .25s}
+.burger i:before{top:-6px}.burger i:after{top:6px}
+.top.open .burger i{background:transparent}
+.top.open .burger i:before{transform:translateY(6px) rotate(45deg)}
+.top.open .burger i:after{transform:translateY(-6px) rotate(-45deg)}
+
+/* pierwszy ekran: zdjecie + granatowy panel z falą */
+.hero{padding:0;position:relative;min-height:calc(100svh - var(--hh));display:flex;flex-direction:column;background:#dfe6ee;overflow:hidden}
+.hero .foto{position:relative;flex:1 1 auto;min-height:220px}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:50% 22%}
+.panel{position:relative;z-index:3;background:var(--n);color:#fff;flex:0 0 auto}
+.panel .fala{position:absolute;left:0;right:0;bottom:calc(100% - 1px);width:100%;height:clamp(40px,5vw,84px)}
+.panel .fala .wyp{fill:var(--n)}
+.panel .fala .lin{fill:none;stroke:var(--tq);stroke-width:3;vector-effect:non-scaling-stroke}
+.panel .wrap{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,.65fr);gap:20px clamp(40px,6vw,120px);align-items:end;padding:clamp(6px,1vh,14px) 0 clamp(34px,5.5vh,64px)}
+.panel .lead{font-size:clamp(17px,1.3vw,20px);line-height:1.5;max-width:36em;margin-top:18px;color:rgba(255,255,255,.9)}
+.panel .cta{display:flex;flex-direction:column;align-items:flex-start;gap:16px}
+.panel .bok{font-size:16px;line-height:1.5;color:rgba(255,255,255,.86)}
+.panel .bok a{text-decoration:none;color:#fff;font-weight:700;font-size:18px}
+
+/* sekcje */
+section{padding:clamp(64px,8vw,120px) 0}
+.sz{background:var(--g)}
+.hd{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:18px 40px;margin-bottom:clamp(28px,3.4vw,48px)}
+.hd p{max-width:36em;color:var(--s);font-size:18px}
+.hd .fale{width:120px;height:16px;margin-top:18px}
+
+/* kategorie */
+.kat{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(12px,1.4vw,22px)}
+.kat a{display:flex;flex-direction:column;text-decoration:none;background:#fff;border:1px solid var(--l);border-radius:6px;overflow:hidden;transition:border-color .2s,box-shadow .2s}
+.kat a:hover{border-color:var(--tq);box-shadow:0 14px 34px rgba(20,28,90,.09)}
+.kat .im{aspect-ratio:1;background:#fff;display:flex;align-items:center;justify-content:center;padding:10px}
+.kat .im img{width:100%;height:100%;object-fit:contain}
+.kat .tx{padding:16px 18px 18px;border-top:1px solid var(--g);flex:1}
+.kat h3{font-size:17.5px}
+.kat p{margin-top:6px;font-size:15px;color:var(--s);line-height:1.45}
+.inne{margin-top:28px;display:flex;flex-wrap:wrap;gap:10px 12px;align-items:center;font-size:16px;color:var(--s)}
+.inne a{text-decoration:none;color:var(--n);font-weight:600;border:1px solid var(--l);padding:9px 14px;border-radius:4px;background:#fff}
+.inne a:hover{border-color:var(--tq)}
+
+/* produkty - tor */
+.tor{display:flex;gap:clamp(14px,1.5vw,22px);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;cursor:grab;padding-bottom:6px;overscroll-behavior-x:contain}
+.tor::-webkit-scrollbar{display:none}
+.tor.drag{cursor:grabbing;scroll-snap-type:none}
+.tor.drag *{pointer-events:none}
+.prod{flex:0 0 clamp(240px,calc((100% - 66px)/4),330px);scroll-snap-align:start;background:#fff;border-radius:6px;overflow:hidden;user-select:none;display:flex;flex-direction:column}
+.prod .im{aspect-ratio:1;padding:14px;background:#fff}
+.prod .im img{width:100%;height:100%;object-fit:contain}
+.prod .tx{padding:16px 20px 20px;border-top:3px solid var(--tq);display:flex;flex-direction:column;flex:1}
+.prod h3{font-size:17.5px}
+.prod p{margin-top:6px;color:var(--s);font-size:15px}
+.prod a{margin-top:auto;padding-top:14px;font-weight:700;color:var(--n);text-decoration:none;font-size:15.5px}
+.prod a:hover{color:var(--tqd)}
+.nav{display:flex;gap:10px}
+.nav button{width:52px;height:52px;border:1px solid var(--l);background:#fff;border-radius:4px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--t)}
+.nav button:hover{border-color:var(--n)}
+.nav svg{width:20px;height:20px}
+.dosklepu{margin-top:30px;display:flex;flex-wrap:wrap;gap:14px 26px;align-items:center}
+.dosklepu p{color:var(--s);font-size:16px;max-width:40em}
+
+/* dla kogo - ciemna */
+.dk{background:var(--n);color:#fff;position:relative}
+.dk .siatka{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,6vw,100px);align-items:start}
+.dk .lead2{font-size:clamp(18px,1.4vw,21px);color:rgba(255,255,255,.88);margin-top:22px;max-width:30em}
+.kto{list-style:none;margin:28px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.kto li{border:1px solid rgba(255,255,255,.3);padding:9px 15px;border-radius:4px;font-size:16px}
+.dk .ff{border-radius:6px;overflow:hidden;aspect-ratio:3/2}
+.dk .ff img{width:100%;height:100%;object-fit:cover}
+.pkt{list-style:none;margin:30px 0 0;padding:0}
+.pkt li{padding:20px 0 20px 46px;border-top:1px solid rgba(255,255,255,.18);position:relative}
+.pkt li:last-child{border-bottom:1px solid rgba(255,255,255,.18)}
+.pkt li svg{position:absolute;left:0;top:23px;width:28px;height:28px}
+.pkt b{display:block;font-size:19px;font-weight:600;font-stretch:108%;margin-bottom:3px}
+.pkt span{color:rgba(255,255,255,.8);font-size:16px}
+
+/* o firmie */
+.of{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(36px,6vw,100px);align-items:center}
+.of .ff{border-radius:6px;overflow:hidden;aspect-ratio:4/5;max-height:640px}
+.of .ff img{width:100%;height:100%;object-fit:cover}
+.of p.t{margin-top:20px;font-size:18px;color:var(--s);max-width:34em}
+.of p.t b{color:var(--t);font-weight:600}
+.fakty{margin-top:34px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;border-top:1px solid var(--l);padding-top:26px}
+.fakty b{display:block;font-size:clamp(26px,2.4vw,36px);font-weight:700;font-stretch:115%;color:var(--n);line-height:1.05}
+.fakty span{display:block;margin-top:6px;color:var(--s);font-size:15px;line-height:1.45}
+
+/* kontakt */
+.kont{display:grid;grid-template-columns:minmax(300px,.85fr) 1.15fr;gap:clamp(30px,4vw,70px);align-items:start}
+.dane{display:flex;flex-direction:column;gap:24px}
+.dane .tl{font-size:clamp(32px,3vw,44px);font-weight:700;font-stretch:112%;text-decoration:none;color:var(--n);line-height:1.05}
+.dane dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:12px 22px;font-size:16.5px}
+.dane dt{color:var(--s)}
+.dane dd{margin:0;font-weight:500}
+.dane dd a{text-underline-offset:3px;text-decoration-color:var(--l)}
+.form{background:#fff;border-radius:6px;padding:clamp(24px,3vw,40px);border-top:4px solid var(--tq)}
+.form h3{font-size:23px}
+.form p.f{margin-top:8px;color:var(--s);font-size:16px}
+.form .g2{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+.form label{display:block;margin-top:16px;font-weight:600;font-size:15px}
+.form input,.form textarea{display:block;width:100%;margin-top:7px;font:inherit;font-size:16.5px;padding:13px 15px;border:1px solid #c5cddc;border-radius:4px;background:#fff;color:var(--t)}
+.form textarea{min-height:110px;resize:vertical}
+.form input:focus,.form textarea:focus{outline:2px solid var(--n);outline-offset:1px}
+.form .btn{margin-top:22px;width:100%}
+.form .ok{margin-top:12px;font-size:15px;color:var(--n);min-height:1.5em}
+.mapa{position:relative;min-height:380px;background:#dde3ec;overflow:hidden;border-radius:6px;margin-top:clamp(30px,4vw,56px)}
+.mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.mapa .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--s);font-size:15px}
+
+/* stopka */
+.stopka{background:var(--nd);color:rgba(255,255,255,.78);padding:48px 0 28px;font-size:15px}
+.stopka .g{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:28px 40px}
+.stopka .logo{color:#fff}
+.stopka .logo small{color:rgba(255,255,255,.65)}
+.stopka .opis{margin-top:14px;max-width:26em}
+.stopka h4{margin:0 0 10px;color:#fff;font-size:15px;font-weight:600}
+.stopka a{text-decoration:none}
+.stopka a:hover{color:#fff}
+.stopka p+p{margin-top:4px}
+.stopka .dol{margin-top:34px;padding-top:20px;border-top:1px solid rgba(255,255,255,.16);display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;align-items:center}
+.stopka .zr{font-size:12.5px;color:rgba(255,255,255,.58);margin-top:16px;line-height:1.5}
+.stopka .zr a{text-decoration:underline;text-underline-offset:2px}
+
+/* Wylinka - oficjalny znak */
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}html{scroll-behavior:auto}}
+
+/* responsywnosc */
+@media (max-width:1180px){.menu a{padding:10px 9px;font-size:15.5px}.top .wrap{gap:18px}.kat{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:1020px){
+  .menu,.top .sklep{display:none}
+  .burger{display:flex}
+  .top.open .menu{display:flex;position:absolute;top:var(--hh);left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:#fff;border-bottom:1px solid var(--l);box-shadow:0 18px 30px rgba(20,28,90,.12);padding:8px var(--gut) 20px}
+  .top.open .menu a{padding:15px 2px;font-size:19px;border-bottom:1px solid var(--g);border-radius:0}
+  .top.open .menu .msk{display:flex}
+  .dk .siatka,.kont,.of{grid-template-columns:1fr}
+  .of .ff{aspect-ratio:3/2}
+}
+.menu .msk{display:none;margin-top:14px;justify-content:center;background:var(--n);color:#fff!important;font-weight:700;border-radius:4px!important;border:0!important}
+@media (max-width:760px){
+  body{font-size:16.5px}
+  .hero .foto{min-height:0;flex:1 1 0}
+  .hero picture img{object-position:50% 20%}
+  .panel .wrap{grid-template-columns:1fr;padding:0 0 30px;gap:24px}
+  h1{font-size:clamp(28px,min(8vw,5.2vh),36px)}
+  .panel .lead{margin-top:12px;font-size:16.5px}
+  .panel .btn{width:100%}
+  .panel .cta{gap:12px}
+  .nav{display:none}
+  .kat{grid-template-columns:1fr 1fr;gap:10px}
+  .kat .tx{padding:12px 12px 14px}
+  .kat h3{font-size:16px}
+  .kat p{display:none}
+  .kat a:last-child{grid-column:1/-1}
+  .kat a:last-child .im{aspect-ratio:2/1}
+  .tor{margin-inline:calc(-1*var(--gut));padding-inline:var(--gut);scroll-padding-inline:var(--gut)}
+  .prod{flex-basis:72vw}
+  .fakty{grid-template-columns:1fr;gap:16px}
+  .form .g2{grid-template-columns:1fr}
+  .mapa{min-height:300px}
+  .stopka .g{grid-template-columns:1fr 1fr}
+  .stopka .g>div:first-child{grid-column:1/-1}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="e" viewBox="0 0 40 40"><rect width="40" height="40" fill="#5AC5C4"/><path d="M0 15.5C7 11 13 19 20 14.5S33 10.5 40 13" stroke="#fff" stroke-width="3.4" fill="none"/><path d="M0 27.5C7 23 13 31 20 26.5S33 22.5 40 25" stroke="#fff" stroke-width="3.4" fill="none"/></symbol>
+</defs></svg>
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="AKMED - strona główna"><span class="wm">AKM<svg aria-hidden="true"><use href="#e"/></svg>D</span><small>Medyczne Instrumenty Diagnostyczne</small></a>
+    <nav class="menu" id="menu" aria-label="Menu">
+      <a href="#oferta">Oferta</a>
+      <a href="#produkty">Produkty</a>
+      <a href="#dla-kogo">Dla kogo</a>
+      <a href="#o-firmie">O firmie</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="msk" href="https://stetoskop.net.pl/" rel="noopener">Sklep online stetoskop.net.pl</a>
+    </nav>
+    <a class="sklep" href="https://stetoskop.net.pl/" rel="noopener"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M2 3h2.4l1.9 9.2h9.4L17.6 6H5.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="7.6" cy="16" r="1.4" fill="currentColor"/><circle cx="14.4" cy="16" r="1.4" fill="currentColor"/></svg>Sklep online</a>
+    <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><i></i></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" aria-label="AKMED - sprzęt diagnostyczny Welch Allyn">
+  <div class="foto">
+    <picture>
+      <source media="(max-width:760px)" srcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" sizes="100vw" width="480" height="296">
+      <img src="img/hero-1600.webp" srcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" sizes="100vw" width="1600" height="1067" alt="Lekarka osłuchuje stetoskopem dziewczynkę w jasnym gabinecie" fetchpriority="high">
+    </picture>
+  </div>
+  <div class="panel">
+    <svg class="fala" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path class="wyp" d="M0 52C200 22 420 22 720 50S1240 78 1440 46V80H0Z"/><path class="lin" d="M0 34C200 4 420 4 720 32S1240 60 1440 28"/></svg>
+    <div class="wrap">
+      <div>
+        <h1>Sprzęt diagnostyczny Welch Allyn dla gabinetów, przychodni i szpitali</h1>
+        <p class="lead">Od 1992 roku pomagamy lekarzom dobrać aparaturę diagnostyczną - od otoskopu po zestaw ścienny. Tylko oryginalne, fabrycznie nowe produkty.</p>
+      </div>
+      <div class="cta">
+        <a class="btn tq" href="https://stetoskop.net.pl/" rel="noopener">Przejdź do sklepu online</a>
+        <p class="bok">Doradzimy przy wyborze: <a href="tel:+48618254561">61 825 45 61</a><br>Biuro Obsługi Klienta, ul. Piątkowska 122, Poznań</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="oferta">
+  <div class="wrap">
+    <div class="hd">
+      <div><h2>Oferta</h2><svg class="fale" viewBox="0 0 120 16" preserveAspectRatio="none" aria-hidden="true"><path d="M0 5C20 0 40 10 60 5S100 0 120 4"/><path d="M0 13C20 8 40 18 60 13S100 8 120 12"/></svg></div>
+      <p>Instrumenty dla praktyk lekarskich różnych specjalności, przychodni, szpitali i gabinetów weterynaryjnych. Zaopatrujemy też sklepy medyczne, firmy farmaceutyczne i apteki.</p>
+    </div>
+    <div class="kat">
+      <a href="https://stetoskop.net.pl/55-cisnieniomierze-lekarskie" rel="noopener"><div class="im"><img src="img/p-cisnieniomierz-767.webp" width="480" height="480" loading="lazy" alt="Ciśnieniomierz biurkowy Welch Allyn 767"></div><div class="tx"><h3>Diagnostyka funkcji życiowych</h3><p>Ciśnieniomierze, mankiety, termometry, pulsoksymetry, EKG.</p></div></a>
+      <a href="https://stetoskop.net.pl/5-otoskopy" rel="noopener"><div class="im"><img src="img/p-otoskop.webp" width="480" height="480" loading="lazy" alt="Otoskopy LED MacroView w czterech kolorach"></div><div class="tx"><h3>Diagnostyka ucha, nosa i gardła</h3><p>Otoskopy, wzierniki i akcesoria otoskopowe.</p></div></a>
+      <a href="https://stetoskop.net.pl/19-oftalmoskopy" rel="noopener"><div class="im"><img src="img/p-oftalmoskop.webp" width="480" height="480" loading="lazy" alt="Oftalmoskop PanOptic Plus w etui"></div><div class="tx"><h3>Diagnostyka oka</h3><p>Oftalmoskopy, w tym panoramiczne PanOptic.</p></div></a>
+      <a href="https://stetoskop.net.pl/44-zestawy-diagnostyczne" rel="noopener"><div class="im"><img src="img/p-zestaw-scienny.webp" width="480" height="480" loading="lazy" alt="Ścienny zestaw diagnostyczny Welch Allyn GS 777"></div><div class="tx"><h3>Zestawy diagnostyczne</h3><p>Zestawy kieszonkowe, w etui i ścienne do gabinetu.</p></div></a>
+      <a href="https://stetoskop.net.pl/28-lampy-medyczne" rel="noopener"><div class="im"><img src="img/p-lampa-gs300.webp" width="480" height="480" loading="lazy" alt="Lampa diagnostyczna GS300 na statywie jezdnym"></div><div class="tx"><h3>Oświetlenie medyczne</h3><p>Lampy diagnostyczne Green Series, czołowe i latarki.</p></div></a>
+    </div>
+    <div class="inne"><span>Także:</span><a href="https://stetoskop.net.pl/" rel="noopener">Proktologia i ginekologia</a><a href="https://stetoskop.net.pl/24-wagi-medyczne" rel="noopener">Wagi i wzrostomierze</a><a href="https://stetoskop.net.pl/" rel="noopener">Weterynaria</a><a href="https://stetoskop.net.pl/" rel="noopener">Stomatologia</a><a href="https://stetoskop.net.pl/30-%C5%BCar%C3%B3wki" rel="noopener">Akumulatory, żarówki i części Welch Allyn</a></div>
+  </div>
+</section>
+
+<section class="sz" id="produkty">
+  <div class="wrap">
+    <div class="hd">
+      <h2>Polecane produkty</h2>
+      <div class="nav" aria-hidden="true">
+        <button type="button" data-k="-1" tabindex="-1"><svg viewBox="0 0 20 20"><path d="M12.5 4 6.5 10l6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button>
+        <button type="button" data-k="1" tabindex="-1"><svg viewBox="0 0 20 20"><path d="m7.5 4 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button>
+      </div>
+    </div>
+    <div class="tor" id="tor">
+      <article class="prod"><div class="im"><img src="img/p-oftalmoskop.webp" width="480" height="480" loading="lazy" alt="Oftalmoskop LED PanOptic Plus"></div><div class="tx"><h3>Oftalmoskop LED PanOptic Plus</h3><p>Panoramiczny, z akumulatorem litowo-jonowym.</p><a href="https://stetoskop.net.pl/oftalmoskopy/128-oftalmoskop-led-panoptic-plus-panoramiczny-lit-jon-welch-allyn.html" rel="noopener">Zobacz w sklepie →</a></div></article>
+      <article class="prod"><div class="im"><img src="img/p-zestaw-scienny.webp" width="480" height="480" loading="lazy" alt="Zestaw diagnostyczny ścienny GS 777"></div><div class="tx"><h3>Zestaw ścienny GS 777</h3><p>Zintegrowany zestaw diagnostyczny do gabinetu.</p><a href="https://stetoskop.net.pl/44-zestawy-diagnostyczne" rel="noopener">Zobacz w sklepie →</a></div></article>
+      <article class="prod"><div class="im"><img src="img/p-durashock-ds58.webp" width="480" height="480" loading="lazy" alt="Ciśnieniomierz DuraShock DS58 Pediatric Kit"></div><div class="tx"><h3>Ciśnieniomierz DS58 DuraShock</h3><p>Zestaw pediatryczny z mankietami w etui.</p><a href="https://stetoskop.net.pl/home/23-cisnieniomierz-durashock-ds58-pediatric-kit-welch-allyn.html" rel="noopener">Zobacz w sklepie →</a></div></article>
+      <article class="prod"><div class="im"><img src="img/p-stetoskop-professional.webp" width="480" height="480" loading="lazy" alt="Stetoskop internistyczny Professional"></div><div class="tx"><h3>Stetoskop Professional</h3><p>Stetoskop internistyczny Welch Allyn.</p><a href="https://stetoskop.net.pl/13-stetoskopy" rel="noopener">Zobacz w sklepie →</a></div></article>
+      <article class="prod"><div class="im"><img src="img/p-lampa-gs300.webp" width="480" height="480" loading="lazy" alt="Lampa diagnostyczna GS300"></div><div class="tx"><h3>Lampa diagnostyczna GS300</h3><p>Lampa LED z serii Green Series na statywie.</p><a href="https://stetoskop.net.pl/lampy-medyczne/17-lampa-diagnostyczna-gs300-welch-allyn.html" rel="noopener">Zobacz w sklepie →</a></div></article>
+      <article class="prod"><div class="im"><img src="img/p-termometr-suretemp.webp" width="480" height="480" loading="lazy" alt="Termometr SureTemp Plus 690"></div><div class="tx"><h3>Termometr SureTemp Plus 690</h3><p>Elektroniczny termometr do gabinetu.</p><a href="https://stetoskop.net.pl/20-termometry" rel="noopener">Zobacz w sklepie →</a></div></article>
+      <article class="prod"><div class="im"><img src="img/p-cisnieniomierz-767.webp" width="480" height="480" loading="lazy" alt="Ciśnieniomierz 767 biurkowy"></div><div class="tx"><h3>Ciśnieniomierz 767 biurkowy</h3><p>Zegarowy ciśnieniomierz na biurko.</p><a href="https://stetoskop.net.pl/32-seria-767" rel="noopener">Zobacz w sklepie →</a></div></article>
+      <article class="prod"><div class="im"><img src="img/p-probp-2000.webp" width="480" height="480" loading="lazy" alt="Ciśnieniomierz automatyczny ProBP 2000"></div><div class="tx"><h3>Ciśnieniomierz ProBP 2000</h3><p>Automatyczny pomiar z technologią SureBP.</p><a href="https://stetoskop.net.pl/33-seria-probp-automatyczne" rel="noopener">Zobacz w sklepie →</a></div></article>
+    </div>
+    <div class="dosklepu">
+      <a class="btn" href="https://stetoskop.net.pl/" rel="noopener">Cały asortyment w sklepie stetoskop.net.pl</a>
+      <p>Sklep internetowy działa bez zmian - strona firmowa prowadzi do niego z każdej kategorii.</p>
+    </div>
+  </div>
+</section>
+
+<section class="dk" id="dla-kogo">
+  <div class="wrap siatka">
+    <div>
+      <h2>Wyposażamy gabinety od pierwszego otoskopu</h2>
+      <p class="lead2">Prawidłowo i szybko postawiona diagnoza to podstawa skutecznej terapii. Dlatego pomagamy dobrać instrumenty tak, by uzupełniały wiedzę i umiejętności personelu.</p>
+      <ul class="kto"><li>praktyki lekarskie</li><li>przychodnie</li><li>szpitale</li><li>gabinety i kliniki weterynaryjne</li><li>sklepy medyczne</li><li>firmy farmaceutyczne</li><li>apteki</li></ul>
+    </div>
+    <div>
+      <div class="ff"><img src="img/cisnienie-560.webp" srcset="img/cisnienie-560.webp 560w, img/cisnienie-900.webp 900w" sizes="(max-width:1020px) 92vw, 600px" width="560" height="374" loading="lazy" alt="Lekarka w granatowym uniformie trzyma zegar ciśnieniomierza"></div>
+      <ul class="pkt">
+        <li><svg aria-hidden="true"><use href="#e"/></svg><b>Pomoc w doborze</b><span>Doradzamy przy wyborze poszczególnych instrumentów i kompleksowym wyposażeniu gabinetu.</span></li>
+        <li><svg aria-hidden="true"><use href="#e"/></svg><b>Prezentacja u klienta</b><span>Pokazujemy produkty w miejscu i czasie dogodnym dla Państwa.</span></li>
+        <li><svg aria-hidden="true"><use href="#e"/></svg><b>Dogodne warunki zakupu</b><span>Dla gabinetów, placówek i odbiorców hurtowych.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="o-firmie">
+  <div class="wrap of">
+    <div class="ff"><img src="img/stetoskop-560.webp" srcset="img/stetoskop-560.webp 560w, img/stetoskop-900.webp 900w" sizes="(max-width:1020px) 92vw, 480px" width="560" height="840" loading="lazy" alt="Dłoń lekarza trzyma stetoskop"></div>
+    <div>
+      <h2>AKMED - z Welch Allyn od 1992 roku</h2>
+      <p class="t">Od początku działalności jesteśmy dostawcą aparatury medycznej amerykańskiej firmy <b>Welch Allyn</b>, uznanego na świecie producenta urządzeń diagnostycznych - dziś w grupie Baxter. To sprzęt o legendarnej trwałości, prostej obsłudze i wyjątkowej ergonomii.</p>
+      <p class="t">Dostarczamy wyłącznie <b>produkty oryginalne i fabrycznie nowe</b>, a do sprzętu, który już pracuje w gabinecie, mamy akumulatory, żarówki i części zamienne.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sz" id="kontakt">
+  <div class="wrap">
+    <div class="hd"><h2>Kontakt</h2></div>
+    <div class="kont">
+      <div class="dane">
+        <a class="tl" href="tel:+48618254561">61 825 45 61</a>
+        <dl>
+          <dt>Biuro Obsługi Klienta</dt><dd>ul. Piątkowska 122 lok. 13<br>60-649 Poznań</dd>
+          <dt>Komórka</dt><dd><a href="tel:+48601728489">601 72 84 89</a></dd>
+          <dt>Faks</dt><dd>61 828 84 34</dd>
+          <dt>E-mail</dt><dd><a href="mailto:info@akmed.com.pl">info@akmed.com.pl</a></dd>
+          <dt>Sklep</dt><dd><a href="https://stetoskop.net.pl/" rel="noopener">stetoskop.net.pl</a></dd>
+          <dt>Siedziba</dt><dd>ul. Tomasza Zana 14, 60-691 Poznań</dd>
+        </dl>
+      </div>
+      <form class="form" id="form" novalidate>
+        <h3>Zadaj pytanie</h3>
+        <p class="f">Opisz, czego szukasz - doradzimy model i przygotujemy ofertę.</p>
+        <div class="g2">
+          <label>Imię i nazwisko<input name="imie" autocomplete="name"></label>
+          <label>Gabinet / firma<input name="firma" autocomplete="organization"></label>
+          <label>Specjalizacja<input name="spec" placeholder="np. pediatria, laryngologia"></label>
+          <label>Telefon lub e-mail<input name="kontakt" autocomplete="email"></label>
+        </div>
+        <label>Pytanie<textarea name="pytanie" placeholder="np. zestaw ścienny do gabinetu pediatrycznego"></textarea></label>
+        <button class="btn" type="submit">Wyślij pytanie</button>
+        <p class="ok" id="ok" role="status"></p>
+      </form>
+    </div>
+    <div class="mapa" id="mapa" data-src="https://www.google.com/maps?q=Pi%C4%85tkowska+122,+60-649+Pozna%C5%84&amp;z=16&amp;output=embed">
+      <div class="ph">Mapa: ul. Piątkowska 122, Poznań</div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="wrap">
+    <div class="g">
+      <div>
+        <a class="logo" href="#" aria-label="AKMED - do góry"><span class="wm">AKM<svg aria-hidden="true"><use href="#e"/></svg>D</span><small>Medyczne Instrumenty Diagnostyczne s.c.</small></a>
+        <p class="opis">Sprzęt diagnostyczny Welch Allyn dla lekarzy, przychodni, szpitali i gabinetów weterynaryjnych.</p>
+      </div>
+      <div>
+        <h4>Biuro Obsługi Klienta</h4>
+        <p>ul. Piątkowska 122 lok. 13</p>
+        <p>60-649 Poznań</p>
+        <p><a href="https://stetoskop.net.pl/" rel="noopener">Sklep: stetoskop.net.pl</a></p>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <p><a href="tel:+48618254561">61 825 45 61</a></p>
+        <p><a href="tel:+48601728489">601 72 84 89</a></p>
+        <p><a href="mailto:info@akmed.com.pl">info@akmed.com.pl</a></p>
+      </div>
+    </div>
+    <div class="dol">
+      <span>&copy; 2026 AKMED - Medyczne Instrumenty Diagnostyczne s.c.</span>
+      <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=akmed.com.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+    </div>
+    <p class="zr">Podgląd koncepcji strony. Zdjęcia poglądowe (do zastąpienia własnymi): Shixart1985, <a href="https://commons.wikimedia.org/wiki/File:Doctor_checks_a_childs_heartbeat_at_a_medical_office.jpg" rel="noopener">Wikimedia Commons</a>, licencja CC BY 2.0. Zdjęcia produktów i treści z akmed.com.pl i stetoskop.net.pl.</p>
+  </div>
+</footer>
+<script src="app.js" defer></script>
+</body>
+</html>
