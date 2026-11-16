@@ -11,9 +11,10 @@
 <link rel="preload" as="image" href="img/hero-m-480.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
 <link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
 <link rel="preload" as="font" type="font/woff2" href="fonts/ar-rdzen.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/ar-pl.woff2" crossorigin>
 <style>
-@font-face{font-family:"Archivo";font-weight:400 800;font-stretch:100% 125%;font-display:swap;src:url(fonts/ar-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+2122,U+2192}
-@font-face{font-family:"Archivo";font-weight:400 800;font-stretch:100% 125%;font-display:swap;src:url(fonts/ar-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Archivo";font-weight:400 800;font-stretch:100% 125%;font-display:optional;src:url(fonts/ar-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+2122,U+2192}
+@font-face{font-family:"Archivo";font-weight:400 800;font-stretch:100% 125%;font-display:optional;src:url(fonts/ar-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
 :root{--n:#1D2877;--nd:#141C5A;--tq:#5AC5C4;--tqd:#2E9E9D;--t:#151B3D;--s:#4F5874;--g:#F1F4F9;--l:#D9DFEA;--hh:72px;--gut:clamp(16px,3.4vw,60px);--w:1320px}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
@@ -168,7 +169,7 @@ section{padding:clamp(64px,8vw,120px) 0}
 .stopka .logo{color:#fff}
 .stopka .logo small{color:rgba(255,255,255,.65)}
 .stopka .opis{margin-top:14px;max-width:26em}
-.stopka h4{margin:0 0 10px;color:#fff;font-size:15px;font-weight:600}
+.stopka .fh{margin:0 0 10px;color:#fff;font-size:15px;font-weight:600}
 .stopka a{text-decoration:none}
 .stopka a:hover{color:#fff}
 .stopka p+p{margin-top:4px}
@@ -232,7 +233,7 @@ section{padding:clamp(64px,8vw,120px) 0}
 </defs></svg>
 <header class="top" id="top">
   <div class="wrap">
-    <a class="logo" href="#" aria-label="AKMED - strona główna"><span class="wm">AKM<svg aria-hidden="true"><use href="#e"/></svg>D</span><small>Medyczne Instrumenty Diagnostyczne</small></a>
+    <a class="logo" href="#"><span class="wm">AKM<svg role="img" aria-label="E"><use href="#e"/></svg>D</span><small>Medyczne Instrumenty Diagnostyczne</small></a>
     <nav class="menu" id="menu" aria-label="Menu">
       <a href="#oferta">Oferta</a>
       <a href="#produkty">Produkty</a>
@@ -276,11 +277,11 @@ section{padding:clamp(64px,8vw,120px) 0}
       <p>Instrumenty dla praktyk lekarskich różnych specjalności, przychodni, szpitali i gabinetów weterynaryjnych. Zaopatrujemy też sklepy medyczne, firmy farmaceutyczne i apteki.</p>
     </div>
     <div class="kat">
-      <a href="https://stetoskop.net.pl/55-cisnieniomierze-lekarskie" rel="noopener"><div class="im"><img src="img/p-cisnieniomierz-767.webp" width="480" height="480" loading="lazy" alt="Ciśnieniomierz biurkowy Welch Allyn 767"></div><div class="tx"><h3>Diagnostyka funkcji życiowych</h3><p>Ciśnieniomierze, mankiety, termometry, pulsoksymetry, EKG.</p></div></a>
-      <a href="https://stetoskop.net.pl/5-otoskopy" rel="noopener"><div class="im"><img src="img/p-otoskop.webp" width="480" height="480" loading="lazy" alt="Otoskopy LED MacroView w czterech kolorach"></div><div class="tx"><h3>Diagnostyka ucha, nosa i gardła</h3><p>Otoskopy, wzierniki i akcesoria otoskopowe.</p></div></a>
-      <a href="https://stetoskop.net.pl/19-oftalmoskopy" rel="noopener"><div class="im"><img src="img/p-oftalmoskop.webp" width="480" height="480" loading="lazy" alt="Oftalmoskop PanOptic Plus w etui"></div><div class="tx"><h3>Diagnostyka oka</h3><p>Oftalmoskopy, w tym panoramiczne PanOptic.</p></div></a>
-      <a href="https://stetoskop.net.pl/44-zestawy-diagnostyczne" rel="noopener"><div class="im"><img src="img/p-zestaw-scienny.webp" width="480" height="480" loading="lazy" alt="Ścienny zestaw diagnostyczny Welch Allyn GS 777"></div><div class="tx"><h3>Zestawy diagnostyczne</h3><p>Zestawy kieszonkowe, w etui i ścienne do gabinetu.</p></div></a>
-      <a href="https://stetoskop.net.pl/28-lampy-medyczne" rel="noopener"><div class="im"><img src="img/p-lampa-gs300.webp" width="480" height="480" loading="lazy" alt="Lampa diagnostyczna GS300 na statywie jezdnym"></div><div class="tx"><h3>Oświetlenie medyczne</h3><p>Lampy diagnostyczne Green Series, czołowe i latarki.</p></div></a>
+      <a href="https://stetoskop.net.pl/55-cisnieniomierze-lekarskie" rel="noopener"><div class="im"><img src="img/p-cisnieniomierz-767.webp" srcset="img/p-cisnieniomierz-767-240.webp 240w, img/p-cisnieniomierz-767.webp 480w" sizes="(max-width:760px) 45vw, 300px" width="480" height="480" loading="lazy" alt="Ciśnieniomierz biurkowy Welch Allyn 767"></div><div class="tx"><h3>Diagnostyka funkcji życiowych</h3><p>Ciśnieniomierze, mankiety, termometry, pulsoksymetry, EKG.</p></div></a>
+      <a href="https://stetoskop.net.pl/5-otoskopy" rel="noopener"><div class="im"><img src="img/p-otoskop.webp" srcset="img/p-otoskop-240.webp 240w, img/p-otoskop.webp 480w" sizes="(max-width:760px) 45vw, 300px" width="480" height="480" loading="lazy" alt="Otoskopy LED MacroView w czterech kolorach"></div><div class="tx"><h3>Diagnostyka ucha, nosa i gardła</h3><p>Otoskopy, wzierniki i akcesoria otoskopowe.</p></div></a>
+      <a href="https://stetoskop.net.pl/19-oftalmoskopy" rel="noopener"><div class="im"><img src="img/p-oftalmoskop.webp" srcset="img/p-oftalmoskop-240.webp 240w, img/p-oftalmoskop.webp 480w" sizes="(max-width:760px) 45vw, 300px" width="480" height="480" loading="lazy" alt="Oftalmoskop PanOptic Plus w etui"></div><div class="tx"><h3>Diagnostyka oka</h3><p>Oftalmoskopy, w tym panoramiczne PanOptic.</p></div></a>
+      <a href="https://stetoskop.net.pl/44-zestawy-diagnostyczne" rel="noopener"><div class="im"><img src="img/p-zestaw-scienny.webp" srcset="img/p-zestaw-scienny-240.webp 240w, img/p-zestaw-scienny.webp 480w" sizes="(max-width:760px) 45vw, 300px" width="480" height="480" loading="lazy" alt="Ścienny zestaw diagnostyczny Welch Allyn GS 777"></div><div class="tx"><h3>Zestawy diagnostyczne</h3><p>Zestawy kieszonkowe, w etui i ścienne do gabinetu.</p></div></a>
+      <a href="https://stetoskop.net.pl/28-lampy-medyczne" rel="noopener"><div class="im"><img src="img/p-lampa-gs300.webp" srcset="img/p-lampa-gs300-240.webp 240w, img/p-lampa-gs300.webp 480w" sizes="(max-width:760px) 45vw, 300px" width="480" height="480" loading="lazy" alt="Lampa diagnostyczna GS300 na statywie jezdnym"></div><div class="tx"><h3>Oświetlenie medyczne</h3><p>Lampy diagnostyczne Green Series, czołowe i latarki.</p></div></a>
     </div>
     <div class="inne"><span>Także:</span><a href="https://stetoskop.net.pl/" rel="noopener">Proktologia i ginekologia</a><a href="https://stetoskop.net.pl/24-wagi-medyczne" rel="noopener">Wagi i wzrostomierze</a><a href="https://stetoskop.net.pl/" rel="noopener">Weterynaria</a><a href="https://stetoskop.net.pl/" rel="noopener">Stomatologia</a><a href="https://stetoskop.net.pl/30-%C5%BCar%C3%B3wki" rel="noopener">Akumulatory, żarówki i części Welch Allyn</a></div>
   </div>
@@ -296,14 +297,14 @@ section{padding:clamp(64px,8vw,120px) 0}
       </div>
     </div>
     <div class="tor" id="tor">
-      <article class="prod"><div class="im"><img src="img/p-oftalmoskop.webp" width="480" height="480" loading="lazy" alt="Oftalmoskop LED PanOptic Plus"></div><div class="tx"><h3>Oftalmoskop LED PanOptic Plus</h3><p>Panoramiczny, z akumulatorem litowo-jonowym.</p><a href="https://stetoskop.net.pl/oftalmoskopy/128-oftalmoskop-led-panoptic-plus-panoramiczny-lit-jon-welch-allyn.html" rel="noopener">Zobacz w sklepie →</a></div></article>
-      <article class="prod"><div class="im"><img src="img/p-zestaw-scienny.webp" width="480" height="480" loading="lazy" alt="Zestaw diagnostyczny ścienny GS 777"></div><div class="tx"><h3>Zestaw ścienny GS 777</h3><p>Zintegrowany zestaw diagnostyczny do gabinetu.</p><a href="https://stetoskop.net.pl/44-zestawy-diagnostyczne" rel="noopener">Zobacz w sklepie →</a></div></article>
-      <article class="prod"><div class="im"><img src="img/p-durashock-ds58.webp" width="480" height="480" loading="lazy" alt="Ciśnieniomierz DuraShock DS58 Pediatric Kit"></div><div class="tx"><h3>Ciśnieniomierz DS58 DuraShock</h3><p>Zestaw pediatryczny z mankietami w etui.</p><a href="https://stetoskop.net.pl/home/23-cisnieniomierz-durashock-ds58-pediatric-kit-welch-allyn.html" rel="noopener">Zobacz w sklepie →</a></div></article>
-      <article class="prod"><div class="im"><img src="img/p-stetoskop-professional.webp" width="480" height="480" loading="lazy" alt="Stetoskop internistyczny Professional"></div><div class="tx"><h3>Stetoskop Professional</h3><p>Stetoskop internistyczny Welch Allyn.</p><a href="https://stetoskop.net.pl/13-stetoskopy" rel="noopener">Zobacz w sklepie →</a></div></article>
-      <article class="prod"><div class="im"><img src="img/p-lampa-gs300.webp" width="480" height="480" loading="lazy" alt="Lampa diagnostyczna GS300"></div><div class="tx"><h3>Lampa diagnostyczna GS300</h3><p>Lampa LED z serii Green Series na statywie.</p><a href="https://stetoskop.net.pl/lampy-medyczne/17-lampa-diagnostyczna-gs300-welch-allyn.html" rel="noopener">Zobacz w sklepie →</a></div></article>
-      <article class="prod"><div class="im"><img src="img/p-termometr-suretemp.webp" width="480" height="480" loading="lazy" alt="Termometr SureTemp Plus 690"></div><div class="tx"><h3>Termometr SureTemp Plus 690</h3><p>Elektroniczny termometr do gabinetu.</p><a href="https://stetoskop.net.pl/20-termometry" rel="noopener">Zobacz w sklepie →</a></div></article>
-      <article class="prod"><div class="im"><img src="img/p-cisnieniomierz-767.webp" width="480" height="480" loading="lazy" alt="Ciśnieniomierz 767 biurkowy"></div><div class="tx"><h3>Ciśnieniomierz 767 biurkowy</h3><p>Zegarowy ciśnieniomierz na biurko.</p><a href="https://stetoskop.net.pl/32-seria-767" rel="noopener">Zobacz w sklepie →</a></div></article>
-      <article class="prod"><div class="im"><img src="img/p-probp-2000.webp" width="480" height="480" loading="lazy" alt="Ciśnieniomierz automatyczny ProBP 2000"></div><div class="tx"><h3>Ciśnieniomierz ProBP 2000</h3><p>Automatyczny pomiar z technologią SureBP.</p><a href="https://stetoskop.net.pl/33-seria-probp-automatyczne" rel="noopener">Zobacz w sklepie →</a></div></article>
+      <article class="prod"><div class="im"><img src="img/p-oftalmoskop.webp" srcset="img/p-oftalmoskop-240.webp 240w, img/p-oftalmoskop.webp 480w" sizes="(max-width:760px) 45vw, 300px" width="480" height="480" loading="lazy" alt="Oftalmoskop LED PanOptic Plus"></div><div class="tx"><h3>Oftalmoskop LED PanOptic Plus</h3><p>Panoramiczny, z akumulatorem litowo-jonowym.</p><a href="https://stetoskop.net.pl/oftalmoskopy/128-oftalmoskop-led-panoptic-plus-panoramiczny-lit-jon-welch-allyn.html" rel="noopener">Zobacz w sklepie →</a></div></article>
+      <article class="prod"><div class="im"><img src="img/p-zestaw-scienny.webp" srcset="img/p-zestaw-scienny-240.webp 240w, img/p-zestaw-scienny.webp 480w" sizes="(max-width:760px) 45vw, 300px" width="480" height="480" loading="lazy" alt="Zestaw diagnostyczny ścienny GS 777"></div><div class="tx"><h3>Zestaw ścienny GS 777</h3><p>Zintegrowany zestaw diagnostyczny do gabinetu.</p><a href="https://stetoskop.net.pl/44-zestawy-diagnostyczne" rel="noopener">Zobacz w sklepie →</a></div></article>
+      <article class="prod"><div class="im"><img src="img/p-durashock-ds58.webp" srcset="img/p-durashock-ds58-240.webp 240w, img/p-durashock-ds58.webp 480w" sizes="(max-width:760px) 45vw, 300px" width="480" height="480" loading="lazy" alt="Ciśnieniomierz DuraShock DS58 Pediatric Kit"></div><div class="tx"><h3>Ciśnieniomierz DS58 DuraShock</h3><p>Zestaw pediatryczny z mankietami w etui.</p><a href="https://stetoskop.net.pl/home/23-cisnieniomierz-durashock-ds58-pediatric-kit-welch-allyn.html" rel="noopener">Zobacz w sklepie →</a></div></article>
+      <article class="prod"><div class="im"><img src="img/p-stetoskop-professional.webp" srcset="img/p-stetoskop-professional-240.webp 240w, img/p-stetoskop-professional.webp 480w" sizes="(max-width:760px) 45vw, 300px" width="480" height="480" loading="lazy" alt="Stetoskop internistyczny Professional"></div><div class="tx"><h3>Stetoskop Professional</h3><p>Stetoskop internistyczny Welch Allyn.</p><a href="https://stetoskop.net.pl/13-stetoskopy" rel="noopener">Zobacz w sklepie →</a></div></article>
+      <article class="prod"><div class="im"><img src="img/p-lampa-gs300.webp" srcset="img/p-lampa-gs300-240.webp 240w, img/p-lampa-gs300.webp 480w" sizes="(max-width:760px) 45vw, 300px" width="480" height="480" loading="lazy" alt="Lampa diagnostyczna GS300"></div><div class="tx"><h3>Lampa diagnostyczna GS300</h3><p>Lampa LED z serii Green Series na statywie.</p><a href="https://stetoskop.net.pl/lampy-medyczne/17-lampa-diagnostyczna-gs300-welch-allyn.html" rel="noopener">Zobacz w sklepie →</a></div></article>
+      <article class="prod"><div class="im"><img src="img/p-termometr-suretemp.webp" srcset="img/p-termometr-suretemp-240.webp 240w, img/p-termometr-suretemp.webp 480w" sizes="(max-width:760px) 45vw, 300px" width="480" height="480" loading="lazy" alt="Termometr SureTemp Plus 690"></div><div class="tx"><h3>Termometr SureTemp Plus 690</h3><p>Elektroniczny termometr do gabinetu.</p><a href="https://stetoskop.net.pl/20-termometry" rel="noopener">Zobacz w sklepie →</a></div></article>
+      <article class="prod"><div class="im"><img src="img/p-cisnieniomierz-767.webp" srcset="img/p-cisnieniomierz-767-240.webp 240w, img/p-cisnieniomierz-767.webp 480w" sizes="(max-width:760px) 45vw, 300px" width="480" height="480" loading="lazy" alt="Ciśnieniomierz 767 biurkowy"></div><div class="tx"><h3>Ciśnieniomierz 767 biurkowy</h3><p>Zegarowy ciśnieniomierz na biurko.</p><a href="https://stetoskop.net.pl/32-seria-767" rel="noopener">Zobacz w sklepie →</a></div></article>
+      <article class="prod"><div class="im"><img src="img/p-probp-2000.webp" srcset="img/p-probp-2000-240.webp 240w, img/p-probp-2000.webp 480w" sizes="(max-width:760px) 45vw, 300px" width="480" height="480" loading="lazy" alt="Ciśnieniomierz automatyczny ProBP 2000"></div><div class="tx"><h3>Ciśnieniomierz ProBP 2000</h3><p>Automatyczny pomiar z technologią SureBP.</p><a href="https://stetoskop.net.pl/33-seria-probp-automatyczne" rel="noopener">Zobacz w sklepie →</a></div></article>
     </div>
     <div class="dosklepu">
       <a class="btn" href="https://stetoskop.net.pl/" rel="noopener">Cały asortyment w sklepie stetoskop.net.pl</a>
@@ -381,17 +382,17 @@ section{padding:clamp(64px,8vw,120px) 0}
   <div class="wrap">
     <div class="g">
       <div>
-        <a class="logo" href="#" aria-label="AKMED - do góry"><span class="wm">AKM<svg aria-hidden="true"><use href="#e"/></svg>D</span><small>Medyczne Instrumenty Diagnostyczne s.c.</small></a>
+        <a class="logo" href="#"><span class="wm">AKM<svg role="img" aria-label="E"><use href="#e"/></svg>D</span><small>Medyczne Instrumenty Diagnostyczne s.c.</small></a>
         <p class="opis">Sprzęt diagnostyczny Welch Allyn dla lekarzy, przychodni, szpitali i gabinetów weterynaryjnych.</p>
       </div>
       <div>
-        <h4>Biuro Obsługi Klienta</h4>
+        <h3 class="fh">Biuro Obsługi Klienta</h3>
         <p>ul. Piątkowska 122 lok. 13</p>
         <p>60-649 Poznań</p>
         <p><a href="https://stetoskop.net.pl/" rel="noopener">Sklep: stetoskop.net.pl</a></p>
       </div>
       <div>
-        <h4>Kontakt</h4>
+        <h3 class="fh">Kontakt</h3>
         <p><a href="tel:+48618254561">61 825 45 61</a></p>
         <p><a href="tel:+48601728489">601 72 84 89</a></p>
         <p><a href="mailto:info@akmed.com.pl">info@akmed.com.pl</a></p>
